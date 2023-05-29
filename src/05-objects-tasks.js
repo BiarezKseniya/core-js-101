@@ -24,14 +24,14 @@ function Rectangle(width, height) {
   const rectangle = {};
   rectangle.width = width;
   rectangle.height = height;
-  rectangle.getArea = function () {
+  rectangle.getArea = function getArea() {
     return width * height;
   };
   return rectangle;
 }
 
 
-/**
+/*
  * Returns the JSON representation of specified object
  *
  * @param {object} obj
